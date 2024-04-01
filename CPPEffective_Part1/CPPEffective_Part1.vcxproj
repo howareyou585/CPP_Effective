@@ -139,9 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Directroy.h" />
+    <ClInclude Include="FileSystem.h" />
     <ClInclude Include="Item4.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Directroy.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
     <ClCompile Include="Item4.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
