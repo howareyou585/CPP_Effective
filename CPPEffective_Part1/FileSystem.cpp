@@ -1,7 +1,7 @@
 #include "FileSystem.h"
 #include<iostream>
 using namespace std;
-FileSystem tfs;
+//FileSystem tfs;
 
 FileSystem::FileSystem()
 {

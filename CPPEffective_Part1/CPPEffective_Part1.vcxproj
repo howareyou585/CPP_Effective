@@ -141,12 +141,16 @@
   <ItemGroup>
     <ClInclude Include="Directroy.h" />
     <ClInclude Include="FileSystem.h" />
+    <ClInclude Include="Item10.h" />
     <ClInclude Include="Item4.h" />
+    <ClInclude Include="Item7.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Directroy.cpp" />
     <ClCompile Include="FileSystem.cpp" />
+    <ClCompile Include="Item10.cpp" />
     <ClCompile Include="Item4.cpp" />
+    <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

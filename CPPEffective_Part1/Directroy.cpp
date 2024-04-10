@@ -8,7 +8,7 @@ Directroy::Directroy()
 {
 
 	cout << "Directroy::Directroy()" << endl;
-	tfs.getid();
+	//tfs.getid();
 }
 
 

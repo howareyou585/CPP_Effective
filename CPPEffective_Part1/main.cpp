@@ -1,4 +1,6 @@
 #include "Item4.h"
+#include "Item7.h"
+#include "Item10.h"
 #include <string>
 #include<iostream>
 #include "Directroy.h"
@@ -13,7 +15,21 @@ int main()
 	//entry.GetName();
 	//cout << "-----------------------" << endl;
 	//static_cast<const ABEntry>(entry).GetName();
-	Directroy d;
+	//Directroy d;
+
 	
+	TimeKeeper* ptrTimeKeeper = GetTimeKeeper(1);
+	if (ptrTimeKeeper)
+	{
+		delete ptrTimeKeeper;
+		ptrTimeKeeper = nullptr;
+	}
+	cout << "--------------------------------" << endl;
+	ptrTimeKeeper = GetTimeKeeper(0);
+	if (ptrTimeKeeper)
+	{
+		delete ptrTimeKeeper;
+		ptrTimeKeeper = nullptr;
+	}
 	return 0;
 }

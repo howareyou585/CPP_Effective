@@ -6,4 +6,4 @@ public:
 	~FileSystem();
 	int getid() { return 100; };
 };
-extern FileSystem tfs;
+//extern FileSystem tfs;
