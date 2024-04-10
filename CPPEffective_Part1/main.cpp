@@ -17,8 +17,8 @@ int main()
 	//static_cast<const ABEntry>(entry).GetName();
 	//Directroy d;
 
-	
-	TimeKeeper* ptrTimeKeeper = GetTimeKeeper(1);
+	//Item7:
+	/*TimeKeeper* ptrTimeKeeper = GetTimeKeeper(1);
 	if (ptrTimeKeeper)
 	{
 		delete ptrTimeKeeper;
@@ -30,6 +30,9 @@ int main()
 	{
 		delete ptrTimeKeeper;
 		ptrTimeKeeper = nullptr;
-	}
+	}*/
+
+	SpecialString ss;
+
 	return 0;
 }
