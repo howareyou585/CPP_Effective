@@ -30,8 +30,8 @@ int main()
 	{
 		delete ptrTimeKeeper;
 		ptrTimeKeeper = nullptr;
-	}*/
-
+	}
+*/
 	SpecialString ss;
 
 	return 0;

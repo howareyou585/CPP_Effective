@@ -13,6 +13,8 @@ class AtomicClock :public TimeKeeper
 public:
 	AtomicClock();
 	~AtomicClock();
+private :
+	char * m_ch;
 };
 class WaterClock :public TimeKeeper
 {

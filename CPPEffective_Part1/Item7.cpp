@@ -13,11 +13,16 @@ TimeKeeper::~TimeKeeper()
 
 AtomicClock::AtomicClock()
 {
+	m_ch = new char[100];
 	cout << "AtomicClock::AtomicClock()" << endl;
 }
 
 AtomicClock::~AtomicClock()
 {
+	//父类的析构函数不是virtual 的话，该析构函数不会被调用，会有内存泄漏。
+	cout << "release m_ch" << endl;
+	delete[] m_ch;
+	m_ch = nullptr;
 	cout << "AtomicClock::~AtomicClock()" << endl;
 }
 
@@ -28,6 +33,7 @@ WaterClock::WaterClock()
 
 WaterClock::~WaterClock()
 {
+	//父类的析构函数不是virtual 的话，该析构函数不会被调用，会有内存泄漏。
 	cout << "WaterClock::~WaterClock()" << endl;
 }
 
