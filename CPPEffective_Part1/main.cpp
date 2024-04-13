@@ -34,7 +34,7 @@ int main()
 */
 	//SpecialString ss;
 	Item10* objA = new Item10(1, 2, 4);
-	Item10* objB = objA;
-	*objA = *objB;
+	Item10 objB(3,3,3);
+	objB = *objA;
 	return 0;
 }
