@@ -8,6 +8,7 @@ public:
 private:
 	int m_a;
 	int m_b;
-	int m_c;
+	int *m_ptrC = nullptr;
+	
 };
 

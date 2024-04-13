@@ -32,7 +32,9 @@ int main()
 		ptrTimeKeeper = nullptr;
 	}
 */
-	SpecialString ss;
-
+	//SpecialString ss;
+	Item10* objA = new Item10(1, 2, 4);
+	Item10* objB = objA;
+	*objA = *objB;
 	return 0;
 }
